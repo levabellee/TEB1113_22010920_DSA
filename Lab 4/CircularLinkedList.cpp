@@ -1,8 +1,12 @@
+/* Name: Lez Evabelle Kennedy
+Student ID: 22010920
+Lab:4*/
+
 #include <iostream>
 #include <string>
 using namespace std;
 
-// === CIRCULAR LINKED LIST ===
+/* ==== CIRCULAR LINKED LIST ==== */
 class CNode {
 public:
     string name;
