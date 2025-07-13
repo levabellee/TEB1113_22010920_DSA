@@ -2,11 +2,11 @@
 Student ID: 22010920
 Lab:4*/
 
+// ==== CIRCULAR LINKED LIST ====
 #include <iostream>
 #include <string>
 using namespace std;
 
-/* ==== CIRCULAR LINKED LIST ==== */
 class CNode {
 public:
     string name;
