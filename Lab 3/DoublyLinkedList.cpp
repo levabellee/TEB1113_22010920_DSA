@@ -2,11 +2,11 @@
 Student ID: 22010920
 Lab: 3*/
 
+// ==== DOUBLY LINKED LIST NODE ====
 #include <iostream>
 #include <string>
 using namespace std;
 
-/* ==== DOUBLY LINKED LIST NODE ==== */
 class DNode {
 public:
     string name;
