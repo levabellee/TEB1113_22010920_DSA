@@ -15,21 +15,21 @@ struct Student {
 
 int main() {
     Student student[5];
-    
-    for (int i=1; i<5+1; i++) {
-        cout << "Enter ID for Student #" << i << ": ";
+
+    for (int i=0; i<5; i++) {
+        cout << "Enter ID for Student #" << i+1 << ": ";
         cin >> student[i].id;
-        cout << "Enter Name for Student #" << i << ": ";
+        cout << "Enter Name for Student #" << i+1<< ": ";
         cin >> student[i].name;
-        cout << "Enter Email for Student #" << i << ": ";
+        cout << "Enter Email for Student #" << i+1<< ": ";
         cin >> student[i].email;
-        cout << "Enter Phone for Student #" << i << ": ";
+        cout << "Enter Phone for Student #" << i+1 << ": ";
         cin >> student[i].phone;
         cout <<"============================" << endl;
     }
-    
-    for (int i = 0; i < 5; i++) {
-        cout <<"========Student Info========"<<endl;
+
+    for (int i=0; i<5; i++) {
+        cout <<"\n========Student Info========"<<endl;
         cout << "ID: "<< student[i].id << endl;
         cout << "Name: "<< student[i].name << endl;
         cout << "Contact Num.: "<< student[i].name << endl;
