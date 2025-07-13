@@ -2,11 +2,11 @@
 Student ID: 22010920
 Lab: 3*/
 
+// ==== SINGLY LINKED LIST ====
 #include <iostream>
 #include <string>
 using namespace std;
 
-/* ==== SINGLY LINKED LIST ==== */
 class SNode {
 public:
     string name;
